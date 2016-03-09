@@ -28,7 +28,7 @@ NSLog(@"Banner Tappped.");
 [NotificationBanner hideNotificationBanner];
 // Hide banner with completion handler
 [NotificationBanner hideNotificationBannerOnComplete:^{
-[NSLog(@" Banner has been hidden.")]
+NSLog(@" Banner has been hidden.");
 }];
 // 
 ```
