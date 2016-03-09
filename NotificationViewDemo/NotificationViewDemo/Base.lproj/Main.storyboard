@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flowers" translatesAutoresizingMaskIntoConstraints="NO" id="Wxr-3v-olV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0X-Fl-Tzt">
+                                <rect key="frame" x="219" y="285" width="162" height="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show Auto Hide Banner"/>
+                                <connections>
+                                    <action selector="showbanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UlM-YM-c9c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zx-6v-cLB">
+                                <rect key="frame" x="221" y="235" width="158" height="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show Tappable Banner"/>
+                                <connections>
+                                    <action selector="showbanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKk-Ix-dS9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdc-4J-e1p">
+                                <rect key="frame" x="210" y="335" width="180" height="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show Manual Hide Banner"/>
+                                <connections>
+                                    <action selector="showbanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9VS-uH-iSJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wxr-3v-olV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1WZ-wL-YEZ"/>
+                            <constraint firstItem="Wxr-3v-olV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9DH-Bg-hfa"/>
+                            <constraint firstItem="3zx-6v-cLB" firstAttribute="centerX" secondItem="C0X-Fl-Tzt" secondAttribute="centerX" id="Aof-xK-a0e"/>
+                            <constraint firstItem="C0X-Fl-Tzt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KXK-rb-oKE"/>
+                            <constraint firstItem="Gdc-4J-e1p" firstAttribute="top" secondItem="C0X-Fl-Tzt" secondAttribute="bottom" constant="20" id="NeV-H4-0Xv"/>
+                            <constraint firstItem="Gdc-4J-e1p" firstAttribute="centerX" secondItem="C0X-Fl-Tzt" secondAttribute="centerX" id="Tay-gh-t8m"/>
+                            <constraint firstItem="C0X-Fl-Tzt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jaY-Wr-PCK"/>
+                            <constraint firstAttribute="trailing" secondItem="Wxr-3v-olV" secondAttribute="trailing" id="oid-sc-hcw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wxr-3v-olV" secondAttribute="bottom" id="z37-7T-45b"/>
+                            <constraint firstItem="C0X-Fl-Tzt" firstAttribute="top" secondItem="3zx-6v-cLB" secondAttribute="bottom" constant="20" id="zSb-OV-hPK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flowers" width="1800" height="1200"/>
+    </resources>
+</document>
