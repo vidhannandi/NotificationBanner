@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "61CCAEC0738345D8DF377C604209CFA840C6185C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D6AC02ABAB852F99DAB0CCEB67738054A4063668" : 0,
+    "61CCAEC0738345D8DF377C604209CFA840C6185C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ACF1DC53-53C6-43B6-9ADB-72D2536A5610",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D6AC02ABAB852F99DAB0CCEB67738054A4063668" : "",
+    "61CCAEC0738345D8DF377C604209CFA840C6185C" : "NotificationBannner\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NotificationViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NotificationViewDemo\/NotificationViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vidhannandi\/NotificationBanner.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61CCAEC0738345D8DF377C604209CFA840C6185C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.finoit.com:EMP195\/delhi-ncr-metro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6AC02ABAB852F99DAB0CCEB67738054A4063668"
+    }
+  ]
+}
